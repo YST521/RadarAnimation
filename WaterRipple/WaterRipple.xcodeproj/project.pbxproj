@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9826AC9F204FE05F009E9479 /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9826AC9D204FE05E009E9479 /* WaveView.m */; };
+		9826ACA2204FE41E009E9479 /* MMPulseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9826ACA1204FE41D009E9479 /* MMPulseView.m */; };
+		9826ACA5204FE451009E9479 /* MoreRadarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9826ACA4204FE451009E9479 /* MoreRadarViewController.m */; };
+		9826ACA8204FEC31009E9479 /* RadarTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9826ACA7204FEC31009E9479 /* RadarTViewController.m */; };
+		98A35CFF2050E78900CEA204 /* CircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A35CFE2050E78900CEA204 /* CircleViewController.m */; };
+		98A35D022050EA1F00CEA204 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A35D012050EA1F00CEA204 /* CircleView.m */; };
+		98A35D08205103D900CEA204 /* STLoopProgressView+BaseConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A35D052051036800CEA204 /* STLoopProgressView+BaseConfiguration.m */; };
+		98A35D09205103E000CEA204 /* STLoopProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A35D072051036800CEA204 /* STLoopProgressView.m */; };
+		98B7E8F5204FCC3C00017E1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B7E8F4204FCC3C00017E1A /* AppDelegate.m */; };
+		98B7E8F8204FCC3C00017E1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B7E8F7204FCC3C00017E1A /* ViewController.m */; };
+		98B7E8FB204FCC3D00017E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B7E8F9204FCC3D00017E1A /* Main.storyboard */; };
+		98B7E8FD204FCC3D00017E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98B7E8FC204FCC3D00017E1A /* Assets.xcassets */; };
+		98B7E900204FCC3D00017E1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B7E8FE204FCC3D00017E1A /* LaunchScreen.storyboard */; };
+		98B7E903204FCC3E00017E1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B7E902204FCC3E00017E1A /* main.m */; };
+		98B7E90D204FCC4000017E1A /* WaterRippleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B7E90C204FCC4000017E1A /* WaterRippleTests.m */; };
+		98B7E918204FCC4000017E1A /* WaterRippleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B7E917204FCC4000017E1A /* WaterRippleUITests.m */; };
+		98B7E927204FCC9D00017E1A /* water.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B7E926204FCC9D00017E1A /* water.m */; };
+		98B7E92A204FCDBA00017E1A /* Radar.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B7E929204FCDBA00017E1A /* Radar.m */; };
+		98B7E92D204FD14A00017E1A /* ShowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B7E92C204FD14A00017E1A /* ShowController.m */; };
+		98B7E937204FD2C500017E1A /* RadarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B7E936204FD2C500017E1A /* RadarViewController.m */; };
+		98B7E938204FD47000017E1A /* XHRadarPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B7E932204FD29100017E1A /* XHRadarPointView.m */; };
+		98B7E939204FD47400017E1A /* XHRadarIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B7E930204FD29100017E1A /* XHRadarIndicatorView.m */; };
+		98B7E93A204FD47800017E1A /* XHRadarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B7E934204FD29100017E1A /* XHRadarView.m */; };
+		98B7E940204FDA1700017E1A /* RadarAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B7E93F204FD9C800017E1A /* RadarAnimationView.m */; };
+		98B7E943204FDC3D00017E1A /* RadarTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B7E942204FDC3D00017E1A /* RadarTwoViewController.m */; };
+		98B7E946204FDC4D00017E1A /* animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B7E944204FDC4C00017E1A /* animation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98B7E909204FCC3F00017E1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98B7E8E8204FCC3A00017E1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98B7E8EF204FCC3B00017E1A;
+			remoteInfo = WaterRipple;
+		};
+		98B7E914204FCC4000017E1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98B7E8E8204FCC3A00017E1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98B7E8EF204FCC3B00017E1A;
+			remoteInfo = WaterRipple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9826AC9D204FE05E009E9479 /* WaveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
+		9826AC9E204FE05E009E9479 /* WaveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
+		9826ACA0204FE41D009E9479 /* MMPulseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMPulseView.h; sourceTree = "<group>"; };
+		9826ACA1204FE41D009E9479 /* MMPulseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMPulseView.m; sourceTree = "<group>"; };
+		9826ACA3204FE451009E9479 /* MoreRadarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreRadarViewController.h; sourceTree = "<group>"; };
+		9826ACA4204FE451009E9479 /* MoreRadarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreRadarViewController.m; sourceTree = "<group>"; };
+		9826ACA6204FEC31009E9479 /* RadarTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadarTViewController.h; sourceTree = "<group>"; };
+		9826ACA7204FEC31009E9479 /* RadarTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadarTViewController.m; sourceTree = "<group>"; };
+		98A35CFD2050E78900CEA204 /* CircleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleViewController.h; sourceTree = "<group>"; };
+		98A35CFE2050E78900CEA204 /* CircleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleViewController.m; sourceTree = "<group>"; };
+		98A35D002050EA1F00CEA204 /* CircleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		98A35D012050EA1F00CEA204 /* CircleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		98A35D042051036800CEA204 /* STLoopProgressView+BaseConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "STLoopProgressView+BaseConfiguration.h"; sourceTree = "<group>"; };
+		98A35D052051036800CEA204 /* STLoopProgressView+BaseConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "STLoopProgressView+BaseConfiguration.m"; sourceTree = "<group>"; };
+		98A35D062051036800CEA204 /* STLoopProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STLoopProgressView.h; sourceTree = "<group>"; };
+		98A35D072051036800CEA204 /* STLoopProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STLoopProgressView.m; sourceTree = "<group>"; };
+		98B7E8F0204FCC3B00017E1A /* WaterRipple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterRipple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B7E8F3204FCC3B00017E1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		98B7E8F4204FCC3C00017E1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		98B7E8F6204FCC3C00017E1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		98B7E8F7204FCC3C00017E1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		98B7E8FA204FCC3D00017E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98B7E8FC204FCC3D00017E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98B7E8FF204FCC3D00017E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98B7E901204FCC3E00017E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98B7E902204FCC3E00017E1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98B7E908204FCC3F00017E1A /* WaterRippleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterRippleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B7E90C204FCC4000017E1A /* WaterRippleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterRippleTests.m; sourceTree = "<group>"; };
+		98B7E90E204FCC4000017E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98B7E913204FCC4000017E1A /* WaterRippleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterRippleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B7E917204FCC4000017E1A /* WaterRippleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterRippleUITests.m; sourceTree = "<group>"; };
+		98B7E919204FCC4000017E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98B7E925204FCC9D00017E1A /* water.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = water.h; sourceTree = "<group>"; };
+		98B7E926204FCC9D00017E1A /* water.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = water.m; sourceTree = "<group>"; };
+		98B7E928204FCDBA00017E1A /* Radar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Radar.h; sourceTree = "<group>"; };
+		98B7E929204FCDBA00017E1A /* Radar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Radar.m; sourceTree = "<group>"; };
+		98B7E92B204FD14A00017E1A /* ShowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowController.h; sourceTree = "<group>"; };
+		98B7E92C204FD14A00017E1A /* ShowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowController.m; sourceTree = "<group>"; };
+		98B7E92F204FD29100017E1A /* XHRadarIndicatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHRadarIndicatorView.h; sourceTree = "<group>"; };
+		98B7E930204FD29100017E1A /* XHRadarIndicatorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHRadarIndicatorView.m; sourceTree = "<group>"; };
+		98B7E931204FD29100017E1A /* XHRadarPointView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHRadarPointView.h; sourceTree = "<group>"; };
+		98B7E932204FD29100017E1A /* XHRadarPointView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHRadarPointView.m; sourceTree = "<group>"; };
+		98B7E933204FD29100017E1A /* XHRadarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHRadarView.h; sourceTree = "<group>"; };
+		98B7E934204FD29100017E1A /* XHRadarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHRadarView.m; sourceTree = "<group>"; };
+		98B7E935204FD2C500017E1A /* RadarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadarViewController.h; sourceTree = "<group>"; };
+		98B7E936204FD2C500017E1A /* RadarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadarViewController.m; sourceTree = "<group>"; };
+		98B7E93C204FD9C800017E1A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		98B7E93D204FD9C800017E1A /* IMG_1314.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1314.JPG; sourceTree = "<group>"; };
+		98B7E93E204FD9C800017E1A /* RadarAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadarAnimationView.h; sourceTree = "<group>"; };
+		98B7E93F204FD9C800017E1A /* RadarAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadarAnimationView.m; sourceTree = "<group>"; };
+		98B7E941204FDC3D00017E1A /* RadarTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadarTwoViewController.h; sourceTree = "<group>"; };
+		98B7E942204FDC3D00017E1A /* RadarTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadarTwoViewController.m; sourceTree = "<group>"; };
+		98B7E944204FDC4C00017E1A /* animation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = animation.m; sourceTree = "<group>"; };
+		98B7E945204FDC4C00017E1A /* animation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = animation.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98B7E8ED204FCC3B00017E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B7E905204FCC3F00017E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B7E910204FCC4000017E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98A35D032051036800CEA204 /* STLoopProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				98A35D042051036800CEA204 /* STLoopProgressView+BaseConfiguration.h */,
+				98A35D052051036800CEA204 /* STLoopProgressView+BaseConfiguration.m */,
+				98A35D062051036800CEA204 /* STLoopProgressView.h */,
+				98A35D072051036800CEA204 /* STLoopProgressView.m */,
+			);
+			path = STLoopProgressView;
+			sourceTree = "<group>";
+		};
+		98B7E8E7204FCC3A00017E1A = {
+			isa = PBXGroup;
+			children = (
+				98B7E8F2204FCC3B00017E1A /* WaterRipple */,
+				98B7E90B204FCC3F00017E1A /* WaterRippleTests */,
+				98B7E916204FCC4000017E1A /* WaterRippleUITests */,
+				98B7E8F1204FCC3B00017E1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98B7E8F1204FCC3B00017E1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98B7E8F0204FCC3B00017E1A /* WaterRipple.app */,
+				98B7E908204FCC3F00017E1A /* WaterRippleTests.xctest */,
+				98B7E913204FCC4000017E1A /* WaterRippleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98B7E8F2204FCC3B00017E1A /* WaterRipple */ = {
+			isa = PBXGroup;
+			children = (
+				98B7E92E204FD29100017E1A /* XHRadarView */,
+				98B7E8F3204FCC3B00017E1A /* AppDelegate.h */,
+				98B7E8F4204FCC3C00017E1A /* AppDelegate.m */,
+				98B7E8F6204FCC3C00017E1A /* ViewController.h */,
+				98B7E8F7204FCC3C00017E1A /* ViewController.m */,
+				98B7E92B204FD14A00017E1A /* ShowController.h */,
+				98B7E92C204FD14A00017E1A /* ShowController.m */,
+				98B7E935204FD2C500017E1A /* RadarViewController.h */,
+				98B7E936204FD2C500017E1A /* RadarViewController.m */,
+				98B7E941204FDC3D00017E1A /* RadarTwoViewController.h */,
+				98B7E942204FDC3D00017E1A /* RadarTwoViewController.m */,
+				9826ACA3204FE451009E9479 /* MoreRadarViewController.h */,
+				9826ACA4204FE451009E9479 /* MoreRadarViewController.m */,
+				9826ACA6204FEC31009E9479 /* RadarTViewController.h */,
+				9826ACA7204FEC31009E9479 /* RadarTViewController.m */,
+				98A35CFD2050E78900CEA204 /* CircleViewController.h */,
+				98A35CFE2050E78900CEA204 /* CircleViewController.m */,
+				98A35D002050EA1F00CEA204 /* CircleView.h */,
+				98A35D012050EA1F00CEA204 /* CircleView.m */,
+				98B7E945204FDC4C00017E1A /* animation.h */,
+				98B7E944204FDC4C00017E1A /* animation.m */,
+				98B7E925204FCC9D00017E1A /* water.h */,
+				98B7E926204FCC9D00017E1A /* water.m */,
+				98B7E928204FCDBA00017E1A /* Radar.h */,
+				98B7E929204FCDBA00017E1A /* Radar.m */,
+				9826AC9E204FE05E009E9479 /* WaveView.h */,
+				9826AC9D204FE05E009E9479 /* WaveView.m */,
+				9826ACA0204FE41D009E9479 /* MMPulseView.h */,
+				9826ACA1204FE41D009E9479 /* MMPulseView.m */,
+				98A35D032051036800CEA204 /* STLoopProgressView */,
+				98B7E93B204FD9BA00017E1A /* New Group */,
+				98B7E8F9204FCC3D00017E1A /* Main.storyboard */,
+				98B7E8FC204FCC3D00017E1A /* Assets.xcassets */,
+				98B7E8FE204FCC3D00017E1A /* LaunchScreen.storyboard */,
+				98B7E901204FCC3E00017E1A /* Info.plist */,
+				98B7E902204FCC3E00017E1A /* main.m */,
+			);
+			path = WaterRipple;
+			sourceTree = "<group>";
+		};
+		98B7E90B204FCC3F00017E1A /* WaterRippleTests */ = {
+			isa = PBXGroup;
+			children = (
+				98B7E90C204FCC4000017E1A /* WaterRippleTests.m */,
+				98B7E90E204FCC4000017E1A /* Info.plist */,
+			);
+			path = WaterRippleTests;
+			sourceTree = "<group>";
+		};
+		98B7E916204FCC4000017E1A /* WaterRippleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98B7E917204FCC4000017E1A /* WaterRippleUITests.m */,
+				98B7E919204FCC4000017E1A /* Info.plist */,
+			);
+			path = WaterRippleUITests;
+			sourceTree = "<group>";
+		};
+		98B7E92E204FD29100017E1A /* XHRadarView */ = {
+			isa = PBXGroup;
+			children = (
+				98B7E92F204FD29100017E1A /* XHRadarIndicatorView.h */,
+				98B7E930204FD29100017E1A /* XHRadarIndicatorView.m */,
+				98B7E931204FD29100017E1A /* XHRadarPointView.h */,
+				98B7E932204FD29100017E1A /* XHRadarPointView.m */,
+				98B7E933204FD29100017E1A /* XHRadarView.h */,
+				98B7E934204FD29100017E1A /* XHRadarView.m */,
+			);
+			path = XHRadarView;
+			sourceTree = "<group>";
+		};
+		98B7E93B204FD9BA00017E1A /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				98B7E93C204FD9C800017E1A /* icon.png */,
+				98B7E93D204FD9C800017E1A /* IMG_1314.JPG */,
+				98B7E93E204FD9C800017E1A /* RadarAnimationView.h */,
+				98B7E93F204FD9C800017E1A /* RadarAnimationView.m */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98B7E8EF204FCC3B00017E1A /* WaterRipple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98B7E91C204FCC4000017E1A /* Build configuration list for PBXNativeTarget "WaterRipple" */;
+			buildPhases = (
+				98B7E8EC204FCC3B00017E1A /* Sources */,
+				98B7E8ED204FCC3B00017E1A /* Frameworks */,
+				98B7E8EE204FCC3B00017E1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterRipple;
+			productName = WaterRipple;
+			productReference = 98B7E8F0204FCC3B00017E1A /* WaterRipple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98B7E907204FCC3F00017E1A /* WaterRippleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98B7E91F204FCC4000017E1A /* Build configuration list for PBXNativeTarget "WaterRippleTests" */;
+			buildPhases = (
+				98B7E904204FCC3F00017E1A /* Sources */,
+				98B7E905204FCC3F00017E1A /* Frameworks */,
+				98B7E906204FCC3F00017E1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98B7E90A204FCC3F00017E1A /* PBXTargetDependency */,
+			);
+			name = WaterRippleTests;
+			productName = WaterRippleTests;
+			productReference = 98B7E908204FCC3F00017E1A /* WaterRippleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98B7E912204FCC4000017E1A /* WaterRippleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98B7E922204FCC4000017E1A /* Build configuration list for PBXNativeTarget "WaterRippleUITests" */;
+			buildPhases = (
+				98B7E90F204FCC4000017E1A /* Sources */,
+				98B7E910204FCC4000017E1A /* Frameworks */,
+				98B7E911204FCC4000017E1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98B7E915204FCC4000017E1A /* PBXTargetDependency */,
+			);
+			name = WaterRippleUITests;
+			productName = WaterRippleUITests;
+			productReference = 98B7E913204FCC4000017E1A /* WaterRippleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98B7E8E8204FCC3A00017E1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = YST;
+				TargetAttributes = {
+					98B7E8EF204FCC3B00017E1A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					98B7E907204FCC3F00017E1A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 98B7E8EF204FCC3B00017E1A;
+					};
+					98B7E912204FCC4000017E1A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 98B7E8EF204FCC3B00017E1A;
+					};
+				};
+			};
+			buildConfigurationList = 98B7E8EB204FCC3A00017E1A /* Build configuration list for PBXProject "WaterRipple" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98B7E8E7204FCC3A00017E1A;
+			productRefGroup = 98B7E8F1204FCC3B00017E1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98B7E8EF204FCC3B00017E1A /* WaterRipple */,
+				98B7E907204FCC3F00017E1A /* WaterRippleTests */,
+				98B7E912204FCC4000017E1A /* WaterRippleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98B7E8EE204FCC3B00017E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B7E900204FCC3D00017E1A /* LaunchScreen.storyboard in Resources */,
+				98B7E8FD204FCC3D00017E1A /* Assets.xcassets in Resources */,
+				98B7E8FB204FCC3D00017E1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B7E906204FCC3F00017E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B7E911204FCC4000017E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98B7E8EC204FCC3B00017E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A35D09205103E000CEA204 /* STLoopProgressView.m in Sources */,
+				98A35D08205103D900CEA204 /* STLoopProgressView+BaseConfiguration.m in Sources */,
+				9826ACA5204FE451009E9479 /* MoreRadarViewController.m in Sources */,
+				98B7E940204FDA1700017E1A /* RadarAnimationView.m in Sources */,
+				9826AC9F204FE05F009E9479 /* WaveView.m in Sources */,
+				98B7E946204FDC4D00017E1A /* animation.m in Sources */,
+				98A35D022050EA1F00CEA204 /* CircleView.m in Sources */,
+				9826ACA8204FEC31009E9479 /* RadarTViewController.m in Sources */,
+				9826ACA2204FE41E009E9479 /* MMPulseView.m in Sources */,
+				98B7E93A204FD47800017E1A /* XHRadarView.m in Sources */,
+				98B7E939204FD47400017E1A /* XHRadarIndicatorView.m in Sources */,
+				98B7E938204FD47000017E1A /* XHRadarPointView.m in Sources */,
+				98B7E92D204FD14A00017E1A /* ShowController.m in Sources */,
+				98B7E92A204FCDBA00017E1A /* Radar.m in Sources */,
+				98B7E943204FDC3D00017E1A /* RadarTwoViewController.m in Sources */,
+				98B7E8F8204FCC3C00017E1A /* ViewController.m in Sources */,
+				98B7E927204FCC9D00017E1A /* water.m in Sources */,
+				98B7E937204FD2C500017E1A /* RadarViewController.m in Sources */,
+				98B7E903204FCC3E00017E1A /* main.m in Sources */,
+				98A35CFF2050E78900CEA204 /* CircleViewController.m in Sources */,
+				98B7E8F5204FCC3C00017E1A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B7E904204FCC3F00017E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B7E90D204FCC4000017E1A /* WaterRippleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B7E90F204FCC4000017E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B7E918204FCC4000017E1A /* WaterRippleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98B7E90A204FCC3F00017E1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98B7E8EF204FCC3B00017E1A /* WaterRipple */;
+			targetProxy = 98B7E909204FCC3F00017E1A /* PBXContainerItemProxy */;
+		};
+		98B7E915204FCC4000017E1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98B7E8EF204FCC3B00017E1A /* WaterRipple */;
+			targetProxy = 98B7E914204FCC4000017E1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98B7E8F9204FCC3D00017E1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98B7E8FA204FCC3D00017E1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98B7E8FE204FCC3D00017E1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98B7E8FF204FCC3D00017E1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98B7E91A204FCC4000017E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		98B7E91B204FCC4000017E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98B7E91D204FCC4000017E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WaterRipple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shantaoIOS.WaterRipple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98B7E91E204FCC4000017E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WaterRipple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shantaoIOS.WaterRipple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98B7E920204FCC4000017E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WaterRippleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shantaoIOS.WaterRippleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterRipple.app/WaterRipple";
+			};
+			name = Debug;
+		};
+		98B7E921204FCC4000017E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WaterRippleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shantaoIOS.WaterRippleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterRipple.app/WaterRipple";
+			};
+			name = Release;
+		};
+		98B7E923204FCC4000017E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WaterRippleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shantaoIOS.WaterRippleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaterRipple;
+			};
+			name = Debug;
+		};
+		98B7E924204FCC4000017E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WaterRippleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shantaoIOS.WaterRippleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaterRipple;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98B7E8EB204FCC3A00017E1A /* Build configuration list for PBXProject "WaterRipple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B7E91A204FCC4000017E1A /* Debug */,
+				98B7E91B204FCC4000017E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98B7E91C204FCC4000017E1A /* Build configuration list for PBXNativeTarget "WaterRipple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B7E91D204FCC4000017E1A /* Debug */,
+				98B7E91E204FCC4000017E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98B7E91F204FCC4000017E1A /* Build configuration list for PBXNativeTarget "WaterRippleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B7E920204FCC4000017E1A /* Debug */,
+				98B7E921204FCC4000017E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98B7E922204FCC4000017E1A /* Build configuration list for PBXNativeTarget "WaterRippleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B7E923204FCC4000017E1A /* Debug */,
+				98B7E924204FCC4000017E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98B7E8E8204FCC3A00017E1A /* Project object */;
+}
