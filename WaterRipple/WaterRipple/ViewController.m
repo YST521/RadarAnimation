@@ -39,7 +39,7 @@
     [self.tabV registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     
     self.dataArry = @[@"水波纹",@"同心圆波纹",@"雷达扫描",@"雷达波",@"雷达波2",@"点击位置出现放大圈",@"多种圆脉冲动画",@"圆环脉冲",@"渐变圆环"];
-
+// 一个相关涟漪动画第三方 https://github.com/shu223/PulsingHalo
    
 }
 
